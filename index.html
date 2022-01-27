@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netlify Forms</title>
+</head>
+<body>
+    <form action="POST" data-netlify="true" >
+        <label>Full Name</label>
+        <input type="Text" placeholder="Enter Your name here " id="name" name="name">
+        <br>
+        <label>Email</label>
+        <input type="email" placeholder="Enter Your email here" id="email" name="email">
+        <br>
+        <label>Message</label>
+        <input type="textarea" placeholder="enter your message here" id="message" name="message">
+        <br>
+        <label>Upload file</label>
+        <input type="file" placeholder="Upload your files here" id="file" name="file">
+
+        <div data-netlify-recaptcha="true">
+         
+        </div>
+
+    </form>
+    
+</body>
+</html>
